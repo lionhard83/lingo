@@ -1,0 +1,24 @@
+{
+  "name": "lingo-game",
+  "version": "1.0.1",
+  "description": "\"Lingo npm project\"",
+  "main": "index.js",
+  "scripts": {
+    "reduce": "tsc && node ./build/reduce.js",
+    "start": "tsc && node ./build/index.js",
+    "test": "tsc && node ./build/test.js "
+  },
+  "keywords": [
+    "Lingo"
+  ],
+  "author": "carloleonardi83@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "prompt-sync": "^4.2.0",
+    "random-italian-names": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.13"
+  }
+}
